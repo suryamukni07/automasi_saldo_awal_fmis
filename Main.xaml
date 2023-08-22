@@ -1,0 +1,227 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="803.3333333333334,2602.6666666666665" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="568,2538" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="saldo" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[saldo]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="506,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="saldo.xlsx" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Application: SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome" sap:VirtualizedContainerService.HintSize="506,2299.3333333333335" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="4116bb7c-de65-450d-b8df-264e470c9a52" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="472,2002" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[saldo]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="410,1886" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,1696" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ' Tambah'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="4116bb7c-de65-450d-b8df-264e470c9a52" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CvTextArgument="+ Tambah Saldo Awal - Neraca" CvType="Text" DesignTimeRectangle="390, 449, 281, 45" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="' Tambah'" FullSelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl name=' Tambah Saldo Awal - Neraca' role='link' /&gt;" FuzzySelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl name=' Tambah Saldo Awal - Neraca' role='link' automationid='' check:text=' Tambah Saldo Awal - Neraca' /&gt;" Guid="60e9e0e8-c502-492c-b2fb-24ef6d2c73f2" ImageBase64="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" InformativeScreenshot="bbcb999726059c031813fa2a6acb937d.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Rekening'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="4116bb7c-de65-450d-b8df-264e470c9a52" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CvType="Button" DesignTimeRectangle="919, 378, 62, 59" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'chrome.exe SIMDA-NG'" Guid="e4aba869-525e-4ed9-9750-6b09beb0e4a1" InformativeScreenshot="eb1cce3acab5d90ea4fa14610a182977.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArgument="Rekening" CvType="Text" DesignTimeRectangle="312, 397, 84, 22" ElementType="Text" FriendlyName="'Rekening'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="HardwareEvents" ScopeIdentifier="4116bb7c-de65-450d-b8df-264e470c9a52" Text="[CurrentRow(&quot;URAIAN&quot;).ToString + &quot;[k(enter)]&quot;]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CvType="InputBox" DesignTimeRectangle="1696, 468, 223, 24" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'Search'" Guid="414fb620-5202-4fc1-93ed-e36537a13eaf" InformativeScreenshot="fdde932396b5e2a5c2a7e99890ce4f64.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArgument="Search:" CvType="Text" DesignTimeRectangle="1623, 481, 63, 19" ElementType="Text" FriendlyName="'Search'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Kode Rekening'" sap:VirtualizedContainerService.HintSize="334,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4116bb7c-de65-450d-b8df-264e470c9a52" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CvType="CheckBox" DesignTimeRectangle="1048, 596, 52, 44" DesignTimeScaleFactor="1.5" ElementType="CheckBox" FriendlyName="'1.1.12.1.1.12'" Guid="59202b60-b02f-4dad-838c-1f6a8556d6d9" InformativeScreenshot="4ed3905286565e41a217c4ede2eaa2af.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome' /&gt;" SearchSteps="CV" SelectionStrategy="UIA" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                              <uix:Target CvTextArgument="Kode Rekening" CvType="Text" DesignTimeRectangle="1174, 550, 135, 22" ElementType="Text" FriendlyName="'Kode Rekening'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                              <uix:Target CvTextArgument="tl" CvType="Text" DesignTimeRectangle="1238, 511, 550, 53" FriendlyName="'chrome.exe SIMDA-NG'" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset X="3" Y="4" />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '0,00'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="HardwareEvents" ScopeIdentifier="4116bb7c-de65-450d-b8df-264e470c9a52" Text="[CurrentRow(&quot;DEBET&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CvElementArea="476, 465, 502, 60" CvTextArea="918, 486, 39, 21" CvTextArgument="0,00" CvType="InputBox" DesignTimeRectangle="480, 467, 496, 57" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'0,00'" FullSelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl idx='4' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl automationid='' role='editable text' /&gt;" Guid="47ce07be-7f64-4316-ab4b-d1081749ce01" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAfQAAAA9CAYAAABbRptCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQ9SURBVHhe7d3di5RVHMDx/qQuopvAi+jCqOgmwYpCEinLEvHCpC3IJCpLMKIk80q7CEsFyYKK6EV7wQq2zMQwM0Nr1dVR190dd0/9np2ZnZlmX6Yd2dkznw8c2Dlz5rn97nlm5swNCQBY8AQdADIg6ACQgZZBLw2V05nB4XTq7FD6Y8AwDMMwjPkc0ePocvR5Kg1BL18bK15wrjSShkfH0nhlHgCYP9Hj6HL0OTodvW7WEPSZ6g8AzK/qXfRmtaDHgig/ANDdotfNG/Ba0KP2sZ0HALpb9Lp5l14Lerzh7j1zAOh+0evodr1a0ONTdADAwtDcbUEHgAVI0AEgA4IOABkQdADIgKADQAYEHQAyIOgAkAFBB4AMCDoAZEDQASADgg4AGRB0AMiAoANABgQdADIg6AD0nPHx8fTz0d/T2qe3pptvW5VuuvXR9ODKF9OXX/+Yxsbi18WnFs8f/PZwWrF6c/G6eP3j615LPx35rbhuvXbWzpWgA9BzDv1wNC26Y026696+tH3HB2nX3s/SQ6s2FdHdu//AtLHd9+FXxboHHnkhvb3rk7TjnY/TkmUbiut9c+hIZdWEdtbOlaAD0FOuDA2ntX1b09LlG9Ppv85XZifm1z27Ld234vn098CFymyjmI/n1zz1Rrp0ebKTMb/ssZeK68Z1qnOzXdsJgg5ATzlx8ky6c2lfevXNPf/ZiX/06XfpxkUPT7l7/r7/WLHj3vP+gcrMpLd27E+L73ky/Xr8z+JxO2s7QdAB6Clxuz2i3Sq0/YePp1sWr275XIj5eG1co1n1n4Hqc+2s7QRBB6CnTBf04ydOp9uXrC920K1MF+nqdSPWoZ21nSDoAPSU2QR9y9bdlZlGs4l09brtrO0EQQegpwg6AGRgNkF3yx0Autx0QfehOABYIKpfW9v8+rv/+2tr7+37ojIzaaqvrc1mbScIOgA95erVkbR+w/Z09/3PNAS11cEyo6PlNHjhUvGacH6wVBwRu/yJV9LA2cnDZ1odFtPO2k4QdAB6Ttzqrh79GsexxnGvK9duKXbU9Ue/xrrYsdffgq8/znX3v7vvONI1/p7p6NeZ1s6VoAPQk345dnLGH2dpFfSIfcR4Nj+40s7auRJ0AJjC5wf7ixB38sNr14ugA0ALI6PltPHlncWt+AsXL1dmu5egA0ALF0tX0nObdnb8ve7rRdABIAOCDgAZEHQAyICgA0AGBB0AMiDoAJABQQeADAg6AGRA0AEgA4IOABkQdADIgKADQAamDPqps0Ops7/UCgBcD9Hr6Ha9WtDPDA6n4dGxyiMAoFtFr6Pb9WpBLw2V07nSSOURANCtotfR7Xq1oIeoffMCAKB7RKebd+ehIejlaxNb+Ch/bOe9pw4A8y96HF2OPkeno9fNGoJeVa1/vOEen6IzDMMwDGP+RvR4prvoLYMOACwsgg4AC15K/wBNbIqeTUKOnAAAAABJRU5ErkJggg==" InformativeScreenshot="4e09831d3ac65888403ad302f2ed3d0b.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome' /&gt;" SearchSteps="FuzzySelector, Image, CV" SelectionStrategy="AA" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvElementArea="287, 469, 187, 54" CvTextArea="306, 484, 42, 19" CvTextArgument="Nilai" CvType="InputBox" DesignTimeRectangle="295, 467, 174, 58" ElementType="InputBox" FriendlyName="'Nilai'" FullSelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl idx='2' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl automationid='' role='editable text' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALIAAAA+CAYAAACP+EHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANNSURBVHhe7drpS1RRGIDx/tmiBcUUW6QkSipKLCL7oGWSWVGYa1NUliFUpma4UCTukUvlQo7j/jbvaSZm8o5Ozp1g3nl+cOB65i5fHg/33pk9AhhAyDCBkGECIcMEQoYJhAwTCBkmEDJMIGSYQMgwgZBhAiHDBEKGCYQMEwgZJhAyTCBkmEDIMIGQYQIhwwRChgmEDBNSCnljY1MWFoIyN78oodBKZDbe2vqGzIf30aHb0bkXr/qlKdAloeVVNzc8Oi25R6rd0O1/5XVOZI+UQtaAjxbfkb05FXKurFGCS1tj9gq0b2Bc9uddd8d19wy7uVRD9jonsodvIevQ1XBzM/JhhFegP2Z/yunzdVJ06q6MTXx3c6mG7HVOZA9fQ847dktGxmYin/6WbKCphozs5mvIOi5fC8jKylpkD+9AZ74tSM29djd0W20X8lL4luXJsw9ScrFejodX3IqbrTI4NBW3+nudE9nDt5DLrj5yEe7LrZT2158ie3gHmuycGhqZlvyimrh/Fh16nZbH3X9iTnQ8soNvITcFuuVB/Vu3ravmdittsnP68KirsJ5TV/rZuUVZXV2ThpZOF7Leyox/8eceG5nNt5Cbw6ujvoorLrnv/q6ubZP19Q3PwJKd01uUnt5R6egcDD/MLbo5pQ92R07Wuuv49dYDmc3XkFVXOKwDh2+40Tsw7hlYsnNR+r56anpeOt8Puaj1fbGuxoSMKN9D1i8mKqtb3dyZCw+lt39sS2Be0SUKcXRsxr1S0/N5DUKG8j1kNRlePQtP3Hbzl8oDklO4u5Bjb1XKK5+6+259uIu9LiFDpSVk9fxln3sg08907BSt11z027rYOUXI+FvaQtbfXpReafYl5IP5VTLwccLN6Yr85t1ndw9OyIhKW8hKv7TQsHYbcuythYarbyoKimriVvrWtj63r9fxyB5pDVlXz+i75Z2iTRTi18lZ99AYDfdQQZXUNXbI2dIG97c+WOp1Eh2P7JBSyP9TMLgc91NQIFbGhAxsh5BhAiHDBEKGCYQMEwgZJhAyTCBkmEDIMIGQYQIhwwRChgmEDBMIGSYQMkwgZJhAyDCBkGECIcMEQoYJhAwT4kKemQ8xGBkzYrEiwwRChgEivwBRQyvObvxAFAAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'grouping'" sap:VirtualizedContainerService.HintSize="334,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4116bb7c-de65-450d-b8df-264e470c9a52" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="468, 554, 520, 43" DesignTimeScaleFactor="1.5" FriendlyName="'grouping'" FullSelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl idx='57' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="35eebd01-c5aa-436c-8a2b-cecee13a8c2b" ImageBase64="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" InformativeScreenshot="a71a3922edff7a9cd7867e245657b534.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome' /&gt;" SearchSteps="FuzzySelector, Image" SelectionStrategy="AA" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvType="RadioButton" DesignTimeRectangle="576, 559, 20, 21" ElementType="RadioButton" FriendlyName="'radio button Kredit'" FullSelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl name='Kredit' role='radio button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman' role='document' /&gt;&lt;ctrl name='Kredit' role='radio button' automationid='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAF6SURBVEhL7ZXPK4RBGMfJhZzl4KBcxc2Jm+M6+gNcnJ0sVona7MVSimzKwYGUC0WJvayDH5HTXqjd8qMkRGzi8vV+e2bWvON9dw9rXPjU1Dvzfuf5zjzPvPNWwTF/wCB1CESWgMYJoDoK1I4AbUlgYAM4vlSiEoQarJ4BzZOeYBBonQL614GxHSC6BfR4hjVD8q5vDXh5V5MCCDSI78nkrnlg91wNWjy9iSF17dNA7kG9sPhmwJRwEldskr4AFo+AFW9n+Uc16MEF1I8CHbNqwMJncPMsOWYKNAzYkhBTszE1hQ/RbGZljOmz8RlQQGH2VvpcsRnUbp1zoiPcMQ/BfUENKHwGLGrvsjzfvcpuggKbbXhb9CdX0meKTYoGLBIFCwfSn8l8BSnVGsZFT5rikjqTosF+XiboU0OhHSys6aLz1HWn5FnzewbOU0QqKfLptfRDi0ycH1N+aHUxhx8acXpVaJxedhqn17VJ0A+HK674h/NT/BuUAfgEnw5S/bbfQTAAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Simpan'" sap:VirtualizedContainerService.HintSize="334,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4116bb7c-de65-450d-b8df-264e470c9a52" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CvElementArea="735, 624, 130, 60" CvTextArea="781, 643, 64, 22" CvTextArgument="Simpan" CvType="Button" DesignTimeRectangle="735, 624, 130, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Simpan'" Guid="b5e6848f-8299-4ff8-925a-3714a42bfac1" InformativeScreenshot="9c6f1f3ccc908529f3b01dee9706136c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 2262, 1350" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" IconBase64="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" InformativeScreenshot="0cd026def24c5925c5aef3403a649261.png" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome' /&gt;" Title="SIMDA-NG | Pemerintah Kabupaten Padang Pariaman - Google Chrome" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
